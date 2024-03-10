@@ -28,3 +28,11 @@ func array2D (rows: Int, colums:Int) -> [[String]] {
 var chekerBoard = array2D(rows: 8, colums: 8)
 print(chekerBoard)
 
+func printBoard (chekerBoard: [[String]]) {
+    for row in chekerBoard {
+        print(row)
+    }
+    
+}
+
+printBoard(chekerBoard: chekerBoard)
