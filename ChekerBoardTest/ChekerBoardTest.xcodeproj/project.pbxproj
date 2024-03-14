@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4B713F02B9D6E5900E862D6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B713EF2B9D6E5900E862D6 /* main.swift */; };
+		A4B713F72BA2798300E862D6 /* CheckersGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B713F62BA2798300E862D6 /* CheckersGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A4B713EC2B9D6E5900E862D6 /* ChekerBoardTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChekerBoardTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B713EF2B9D6E5900E862D6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A4B713F62BA2798300E862D6 /* CheckersGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckersGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				A4B713EF2B9D6E5900E862D6 /* main.swift */,
+				A4B713F62BA2798300E862D6 /* CheckersGame.swift */,
 			);
 			path = ChekerBoardTest;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B713F02B9D6E5900E862D6 /* main.swift in Sources */,
+				A4B713F72BA2798300E862D6 /* CheckersGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

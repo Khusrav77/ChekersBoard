@@ -7,19 +7,17 @@
 
 import Foundation
 
-print("Hello, World!")
-
-func array2D (rows: Int, colums:Int) -> [[String]] {
+/*func array2D (rows: Int, colums:Int) -> [[String]] {
     
     var strArray = [[String]] ()
     
     for _ in 0..<rows {
-        var  row = [String] ()
+        var  row = Array(repeating: "🟢", count: colums)
         
-        for _ in 0..<colums {
+        /*for _ in 0..<colums {
             row.append("#")
             print(row)
-        }
+        }*/
         strArray.append(row)
     }
     return strArray
@@ -35,4 +33,5 @@ func printBoard (chekerBoard: [[String]]) {
     
 }
 
-printBoard(chekerBoard: chekerBoard)
+printBoard(chekerBoard: chekerBoard)*/
+game.startGame()
